@@ -20,6 +20,14 @@ GIT
     spree_i18n (1.0.0)
       spree_core (>= 0.30.0)
 
+GIT
+  remote: git://github.com/spree/spree_paypal_express.git
+  revision: 0497b14c798a886673dc4ae0b833e2a01a778555
+  branch: 1-0-stable
+  specs:
+    spree_paypal_express (1.1.0)
+      spree_core (>= 1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -266,6 +274,7 @@ DEPENDENCIES
   spree_blue_theme!
   spree_heroku!
   spree_i18n!
+  spree_paypal_express!
   spree_skrill
   spree_usa_epay
   uglifier (>= 1.0.3)
