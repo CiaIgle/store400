@@ -39,7 +39,8 @@ gem 'jquery-rails'
 gem 'spree', :git => 'git://github.com/spree/spree.git', :branch => '1-1-stable' 
 gem 'spree_usa_epay'
 gem 'spree_skrill'
-gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => '1-0-stable' 
+gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git' 
+#gem 'spree_paypal_express', :git => 'git://github.com/spree/spree_paypal_express.git', :branch => '1-0-stable' 
 
 gem 'spree_heroku', :git => 'git://github.com/joneslee85/spree-heroku.git', :branch => '1-0-stable'
 
