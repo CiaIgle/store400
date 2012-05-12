@@ -358,7 +358,8 @@ pt-PT:
   debit: Debit
   default: Default
   default_tax: "Default Tax"
-  default_tax_zone: Default Tax Zone  delete: Apagar
+  default_tax_zone: Default Tax Zone  
+  delete: Apagar
   delivery: Delivery
   depth: Espessura
   description: Descrição
@@ -1079,3 +1080,25 @@ pt-PT:
   zone_based: "Baseado em Zona"
   zone_setting_description: "Coleção de países, estados e outras zonas a serem usados nos cálculos."
   zones: Zonas
+  number:
+    currency:
+      format:
+        delimiter: ! ','
+        format: ! '%u%n'
+        precision: 2
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format:
+      delimiter: ! ','
+      precision: 3
+      separator: .
+      significant: false
+      strip_insignificant_zeros: false
+
+
+
+
+
+
